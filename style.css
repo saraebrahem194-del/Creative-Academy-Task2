@@ -1,0 +1,273 @@
+        .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #10213b;
+    color: white;
+        }
+
+        .header {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .header span {
+            color: #a78bfa;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #a78bfa;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .hero-section {
+            text-align: left;
+            padding: 0px;
+            background-image: linear-gradient(rgba(10, 25, 50, 0.45), rgba(10, 25, 50, 0.45)), url('C:/Users/Administrator/OneDrive/Desktop/Frontend/images/road.avif?auto=format&fit=crop&w=1600&q=80');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+        }
+
+        .hero-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 60px 8% 80px;
+            color: #ffffff;
+        }
+        @media (max-width: 768px) {
+        .hero-content h1 {
+            font-size: 34px;
+            }
+        }
+
+        .hero-content h1 {
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            max-width: 600px;
+        }
+
+        .hero-content h1 span {
+            color: #a78bfa;
+        }
+
+        .hero-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            max-width: 500px;
+            color: #f0f0f0;
+        }
+
+        .btn-get-started {
+            background-color: #8b5cf6;
+            color: #ffffff;
+            padding: 15px 35px;
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            width: fit-content;
+            transition: background-color 0.3s;
+        }
+
+        .btn-get-started:hover {
+            background-color: #6d28d9;
+            transform: translateY(-3px);
+        }
+        a.btn {
+            text-decoration: none;
+            color: #ffffff;
+            display: inline-block;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .courses-section {
+            padding: 40px 6%;
+            background-color: #f8f9fa;
+        }
+
+        .courses-header {
+            margin-bottom: 50px;
+        }
+
+        .courses-header h2 {
+            font-size: 36px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .courses-header p {
+            font-size: 16px;
+            color: #64748b;
+            margin-bottom: 30px;
+        }
+
+        .courses-grid {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px 25px ;
+        }
+
+        .course-card {
+            background-color: #ffffff;
+            border-radius: 17px;
+            padding: 25px;
+            flex: 1;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            position: relative;
+            transition: transform 0.3s, box-shadow 0.3s;}
+
+        .course-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .course-card:nth-child(1) {
+            background: linear-gradient(135deg, #eee8ff 0%, #ffffff 100%);
+        }
+
+        .course-card:nth-child(2) {
+            background: linear-gradient(135deg, #e0f2fe 0%, #ffffff 100%);
+        }
+
+        .course-card:nth-child(3) {
+            background: linear-gradient(135deg, #dff8ee 0%, #ffffff 100%);
+        }
+
+        .card-top {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .course-card h3 {
+            font-size: 22px;
+            color: #1a3c5e;
+            font-weight: 700;
+        }
+
+        .badge-new {
+            background-color: #8b5cf6;
+            color: white;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 5px 12px;
+            border-radius: 20px;
+            letter-spacing: 0.5px;
+        }
+
+        .course-card p {
+            font-size: 15px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            min-height: 70px;
+        }
+
+        .learn-more {
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: 600;
+            font-size: 15px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: gap 0.3s;
+        }
+
+        .learn-more:hover {
+            gap: 12px;
+        }
+
+        .footer {
+            background-color: #10213b;
+            text-align: center;
+            padding: 20px 0;
+            color: #ffffff;
+        }
+
+        .footer-logo {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .footer-logo span {
+            color: #68a4ff;
+        }
+
+        .footer p {
+            font-size: 14px;
+            color: #d1d5db;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 18px;
+    }
+
+    .hero {
+        min-height: 350px;
+        padding: 40px 6%;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .courses {
+        padding: 40px 6%;
+    }
+
+    .courses > h2 {
+        font-size: 27px;
+    }
+
+    .cards-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
