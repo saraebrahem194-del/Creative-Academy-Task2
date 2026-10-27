@@ -44,7 +44,7 @@
         .hero-section {
             text-align: left;
             padding: 0px;
-            background-image: linear-gradient(rgba(10, 25, 50, 0.45), rgba(10, 25, 50, 0.45)), url('C:/Users/Administrator/OneDrive/Desktop/Frontend/images/road.avif?auto=format&fit=crop&w=1600&q=80');
+            background-image: linear-gradient(rgba(10, 25, 50, 0.45), rgba(10, 25, 50, 0.45)), url('images/road.avif?auto=format&fit=crop&w=1600&q=80');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
